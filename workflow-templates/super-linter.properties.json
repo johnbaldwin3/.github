@@ -1,0 +1,5 @@
+{
+    "name": "Super Linter Template",
+    "description": "Template for running a linter across multiple languages",
+    "iconName": "github"
+}
