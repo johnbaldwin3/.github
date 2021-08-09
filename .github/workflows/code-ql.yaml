@@ -4,9 +4,9 @@ name: "Code Scanning - Advanced Security"
 
 on:
   push:
-    branches: [main, release, develop]
+    branches: [master, release, develop]
   pull_request:
-    branches: [main]
+    branches: [master, release, develop]
   workflow_dispatch:
   
 
