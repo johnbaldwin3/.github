@@ -1,6 +1,6 @@
 # Free for public repositories
 # Need to have GitHub Advanced Security enabled for private and internal repositories.
-name: "Code Scanning - Action"
+name: "Code Scanning - Advanced Security"
 
 on:
   push:
