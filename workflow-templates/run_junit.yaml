@@ -58,3 +58,6 @@ jobs:
       # Execute the tests with Maven
       - name: Run tests with Maven
         run: mvn clean test --file pom.xml
+      # Publish the test Report
+      - name: Publish Test Report
+        uses: scacap/action-surefire-report@v1
