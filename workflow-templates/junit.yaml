@@ -38,7 +38,7 @@
 name: Run JUnit Tests
 on: [workflow_dispatch]
 jobs:
-  run_tests:
+  RunJunitTests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
@@ -67,7 +67,6 @@ jobs:
         with:
           generate-branches-badge: true
           jacoco-csv-file: target/site/jacoco/jacoco.csv
-          
       - name: Log coverage percentage
         run: |
           echo "coverage = ${{ steps.jacoco.outputs.coverage }}"
